@@ -1,0 +1,8 @@
+ [functions]
+  node_bundler = "esbuild"
+  directory = "functions/"
+  included_files = ["./db/**.json"]
+
+[dev]
+  port = 3000
+  publish = "dist"
